@@ -1,5 +1,7 @@
+#!bin/bash
+
 #General Installs Arch
-sudo pacman -S kitty bspwm polybar vim snapd nitrogen git picom sl lolcat terminator sxhkd zathura asciiquarium dmenu tmux jp2a neofetch gimp gcc make dmenu rofi cmus
+sudo pacman -S kitty bspwm polybar vim snapd nitrogen git picom sl lolcat terminator sxhkd zathura asciiquarium dmenu tmux jp2a neofetch gimp gcc make dmenu rofi cmus xclip
 
 #General Installs Debain
 #sudo apt-get install kitty bspwm polybar vim snapd nitrogen git picom sl lolcat terminator sxhkd zathura asciiquarium dmenu tmux jp2a neofetch gimp gcc make dmenu rofi
