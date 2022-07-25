@@ -1,7 +1,7 @@
 #!bin/bash
 
 #General Installs Arch
-sudo pacman -S kitty bspwm polybar vim snapd nitrogen git picom sl lolcat terminator sxhkd zathura asciiquarium dmenu tmux jp2a neofetch gimp gcc make dmenu rofi cmus xclip
+sudo pacman -S kitty bspwm polybar vim snapd nitrogen git curl picom sl lolcat terminator sxhkd zathura asciiquarium dmenu tmux jp2a neofetch gimp min gcc make dmenu rofi cmus xclip
 
 cargo install fsrx
 
@@ -18,3 +18,4 @@ sudo ln -s /var/lib/snapd/snap /snap
 #install snaps
 sudo snap install code --classic
 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
