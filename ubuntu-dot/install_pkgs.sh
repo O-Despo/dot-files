@@ -4,7 +4,7 @@ sudo apt update && sudo apt upgrade
 sudo add-apt-repository ppa:aslatter/ppa -y
 sudo apt install alacritty
 
-sudo apt install git neovim vim snapd zathura tmux neofetch firefox kitty blender audacity krita rsync curl light i3 vlc
+sudo apt install git neovim vim snapd zathura tmux neofetch firefox kitty blender audacity krita rsync curl light i3 vlc libfuse2  python3.10-venv
 
 #install snaps
 sudo snap install code --classic
